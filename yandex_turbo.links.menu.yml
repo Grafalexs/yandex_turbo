@@ -1,0 +1,5 @@
+yandex_turbo.settings:
+  title: 'yandex_turbo'
+  parent: system.admin_config_services
+  description: 'Yandex Turbo.'
+  route_name: yandex_turbo.settings
