@@ -16,7 +16,7 @@ class yandex_turbo extends ControllerBase {
 
     $build['content'] = [
       '#type' => 'item',
-      '#markup' => $this->t('It works!'),
+      '#markup' => $this->t('Когда то будет Yandex Turbo'),
     ];
 
     return $build;
