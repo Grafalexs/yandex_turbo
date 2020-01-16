@@ -1,8 +1,7 @@
-yandex_turbo.routing:
-  path: 'admin/config/services/yandex-turbo'
+yandex_turbo:
+  path: '/yandex_turbo'
   defaults:
-    _title: 'Yandex_turbo'
-    _controller: '\Drupal\yandex_turbo\Controller\yandex_turboController::yandex_turbo'
+    _title: 'Example'
+    _controller: '\Drupal\yandex_turbo\Controller\yandex_turbo::build'
   requirements:
     _permission: 'access administration pages'
-     
