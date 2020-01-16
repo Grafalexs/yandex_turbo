@@ -5,4 +5,4 @@ yandex_turbo.routing:
     _controller: '\Drupal\yandex_turbo\Controller\yandex_turboController::yandex_turbo_settings'
   requirements:
     _permission: 'access administration pages'
-     /**
+     
