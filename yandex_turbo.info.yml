@@ -2,3 +2,4 @@ name: 'Yandex Turbo'
 description: 'Yandex.Turbo RSS 2.0 export module'
 core: 8.x
 type: module
+configure: yandex_turbo.settings
