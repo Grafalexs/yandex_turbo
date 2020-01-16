@@ -1,5 +1,5 @@
-yandex_turbo.settings:
+yandex_turbo.link:
   title: 'yandex_turbo'
   parent: system.admin_config_services
   description: 'Yandex Turbo.'
-  route_name: yandex_turbo.settings
+  route_name: yandex_turbo.routing
