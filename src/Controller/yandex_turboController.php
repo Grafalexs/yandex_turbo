@@ -2,11 +2,8 @@
  
 namespace Drupal\yandex_turbo\Controller;
 use Drupal\Core\Controller\ControllerBase;
-class yandex_turboController
+class yandex_turboController extends ControllerBase
 {
 
-public function yandex_turbo ()
-{
-	
-}
+
 }
