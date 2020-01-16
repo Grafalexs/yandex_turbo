@@ -3,9 +3,11 @@
 /**
  * Implements hook_uninstall().
  */
-function yandex_turbo_uninstall()
+function yandex_turbo_uninstall ($modules)
 {
-    db_delete('variable')
-        ->condition('name', db_like('yandex_turbo_') . '%', 'LIKE')
-        ->execute();
+ if (in_array('lousy_module', $modules)) {
+    \Drupal::state()
+      ->delete('yandex_turbo.lousy_module_compatibility');
+  }
+  mymodule_cache_rebuild();
 }
